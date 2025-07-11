@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
 *{
-  margin: 0;
+  font-family: "Outfit",serif;
+}
+
+@theme{
+  --color-primary: #5044E5;
+}
+@utility flex-between{
+  @apply flex items-center justify-between
+}
+
+@utility flex-center{
+  @apply flex items-center justify-center
 }
