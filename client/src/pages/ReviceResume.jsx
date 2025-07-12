@@ -2,7 +2,7 @@ import { FileText, Sparkles } from 'lucide-react'
 import React, { useState } from 'react'
 
 const ReviceResume = () => {
-    const [input, setInput] = useState('')
+    const [input, setInput] = useState("");
     const onSubmitHandler = async (e) => {
         e.preventDefault()
     }
