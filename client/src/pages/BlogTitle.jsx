@@ -48,9 +48,9 @@ const BlogTitle = () => {
                             type="button"
                             key={category}
                             onClick={() => setSelectedCategory(category)}
-                            className={`px-4 py-2 rounded-full text-sm font-medium border
+                            className={`text-xs px-4 py-2 border rounded-full cursor-pointer
                                 ${selectedCategory === category
-                                    ? 'bg-blue-100 text-blue-700 border-blue-300'
+                                    ? 'bg-purple-100 text-purple-700 border-gray-300'
                                     : 'text-gray-600 bg-gray-100 border-gray-300 hover:border-gray-400'
                                 }
                             `}
@@ -72,7 +72,7 @@ const BlogTitle = () => {
             </form>
 
             {/* Right Column: Generated titles */}
-            <div className="w-full md:w-1/2 overflow-y-auto p-6 bg-white rounded-xl shadow-lg flex flex-col max-h-[500px]">
+            <div className="w-full max-w-lg overflow-y-auto p-6 bg-white rounded-xl shadow-lg flex flex-col max-h-[500px]">
 
                 <div className="flex items-center gap-2 text-lg font-semibold mb-6">
                     <Hash className="w-5 h-5 text-[#8E37EB]" />
@@ -81,7 +81,7 @@ const BlogTitle = () => {
 
                 <div className="flex-1 flex flex-col items-center justify-center text-center text-gray-400">
                     <Hash className="w-20 h-20 text-gray-300" />
-                    <p className="mt-4 text-sm max-w-sm">Enter keywords and click “Generate Titles” to get started</p>
+                    <p className="mt-4 text-sm max-w-sm">Enter keywords and click "Generate Titles" to get started</p>
                 </div>
             </div>
         </div>

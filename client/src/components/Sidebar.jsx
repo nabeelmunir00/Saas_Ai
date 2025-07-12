@@ -46,7 +46,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
                     ))}
                 </div>
             </div>
-            <div className=''>
+            <div className='mb-10'>
                 <div onClick={openUserProfile} className='flex items-center gap-4 cursor-pointer'>
                     <img src={user.imageUrl} alt="avatar" className='w-8 object-cover rounded-full' />
                     <div>
