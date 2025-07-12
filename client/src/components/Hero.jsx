@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='px-4 sm:px-20 xl:px-32 inline-flex flex-col justify-center w-full min-h-screen bg-[url(/gradientBackground.png)] bg-no-repeat bg-cover'>
             {/* Text Content */}
             <div className='text-center mb-4'>
-                <h1 className='text-3xl sm:text-5xl md:text-5xl 2xl:text-7xl font-bold mx-auto leading-[1.2]'>
+                <h1 className='text-3xl sm:text-5xl md:text-6xl 2xl:text-7xl font-bold mx-auto leading-[1.2]'>
                     Create amazing content <br />
                     with <span className='text-primary'>AI tools</span>
                 </h1>

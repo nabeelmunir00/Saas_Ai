@@ -16,3 +16,11 @@
 @utility flex-center{
   @apply flex items-center justify-center
 }
+
+
+.reset-tw, .reset-tw *{
+  all: revert !important;
+}
+.cl-drawerRoot{
+  z-index: 10;
+}

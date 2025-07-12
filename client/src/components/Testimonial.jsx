@@ -16,7 +16,7 @@ const Testimonial = () => {
                             hover:-translate-y-1 duration-300 transition-all cursor-pointer">
                             <div className='flex'>
                                 {data.rating.map((img, index) => (
-                                    <img src={img} alt='img' />
+                                    <img key={index} src={img} alt='img' />
                                 ))}
                             </div>
                             <p className="text-gray-400 text-sm max-w-[95%] my-5">{`"${data.content}"`}</p>
